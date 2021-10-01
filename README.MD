@@ -53,6 +53,8 @@ Esse projeto está sob a licença ISC. Veja o arquivo [LICENSE](LICENSE),para sa
 
 <footer>
 <p align="center">
+    
 Criado por [AlpesOne](https://alpes.one), desenvolvido por [Lucas](https://github.com/hash-luk)❤
+    
 </p>
 </footer>
