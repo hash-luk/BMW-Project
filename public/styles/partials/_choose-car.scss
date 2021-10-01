@@ -1,0 +1,135 @@
+.choose-car {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+    margin: 50px 0px;
+  }
+  
+  .choose-car h2 {
+    font-family: BMWTypeNext-Light;
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 100px;
+  }
+  
+  .car {
+    height: 363px;
+    width: 315px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px
+  }
+  
+  .car-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .car-models01,.car-models02 {
+    width: 80%;
+    height: 383px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0px;
+  }
+  
+  .car-models01,.car-models02 p {
+    font-family: BMWTypeNext-Light;
+    text-align: left !important;
+  
+  }
+  
+  .car-title {
+    font-size: 1.5rem;
+    color: $text;
+    width: 100%;
+  }
+  
+  
+  .arrow img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .arrow img:hover {
+    cursor: pointer;
+  }
+  
+  .car button {
+    width: 275px;
+    height: 45px;
+    background-color: $default-blue;
+    color: $white;
+    font-family: BMWTypeNext-Bold;
+    border: none;
+  }
+  
+  .car button:hover {
+    background-color: $hover-dark-blue;
+    cursor: pointer;
+  }
+  
+  .car>div:first-child:hover {
+    opacity: 0.5;
+  }
+  
+  #footer img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  #footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #footer p {
+    font-weight: 300;
+    color: $gray;
+  }
+  
+  #carrosel-cars {
+    width: 62px;
+    height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* transform: translateY(170px); */
+  }
+  
+  #carrosel-cars #ball:not(:first-child){
+    width: 14px;
+    height: 14px;
+    background-color: $gray;
+    bottom: 0;
+    border-radius: 100%;
+  }
+  
+  .sell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .images {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 130px;
+    transform: translateX(-50%);
+  }
+  

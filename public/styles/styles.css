@@ -1,0 +1,932 @@
+.header {
+  width: 100%;
+  height: 152px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: BMWTypeNext-Bold, sans-serif;
+  margin: 0px 0px 20px 0px;
+}
+
+.left-content {
+  height: 100%;
+  width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#contact img {
+  width: 19px;
+  height: 19px;
+}
+
+#contact {
+  width: 70%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.telefone {
+  width: 160px;
+  height: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #000000;
+  color: white;
+}
+
+.telefone:hover {
+  background-color: #575757;
+  cursor: pointer;
+}
+
+.virtual-tour {
+  width: 160px;
+  height: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #000000;
+  color: white;
+}
+
+.virtual-tour:hover {
+  background-color: #575757;
+  cursor: pointer;
+}
+
+.whatsapp {
+  width: 160px;
+  height: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #25D366;
+  color: white;
+}
+
+.whatsapp:hover {
+  background-color: #35AA61;
+  cursor: pointer;
+}
+
+#cars {
+  width: 824px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: #666666;
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
+}
+
+#cars div:hover {
+  color: #8a8a8a;
+  cursor: pointer;
+}
+
+.fixed-bar {
+  width: 100%;
+  height: 85px;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #FFFFFF;
+  padding-top: 5px;
+  padding-left: 20px;
+  z-index: 2;
+}
+
+#gray {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(102, 102, 102, 0.6);
+}
+
+.fixed-bar img {
+  width: 64px;
+  height: 64px;
+}
+
+.information {
+  height: 100%;
+}
+
+.information button {
+  width: 200px;
+  height: 100%;
+  background-color: #1C69D4;
+  color: #FFFFFF;
+  font-family: BMWTypeNext-Bold,sans-serif;
+  border: none;
+}
+
+.information button:hover {
+  background-color: #0351BE;
+  cursor: pointer;
+}
+
+.fixed-bottom-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 85px;
+  background-color: #FFFFFF;
+  z-index: 1;
+}
+
+#bar-content {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: BMWTypeNext-Bold,sans-serif;
+}
+
+#whatsapp-ballon {
+  background-color: #25D366;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  width: 94px;
+  height: 94px;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#whatsapp-ballon:hover {
+  background-color: #35AA61;
+  cursor: pointer;
+}
+
+#whatsapp-ballon img {
+  width: 80%;
+  height: 80%;
+}
+
+#information-text img {
+  width: 24px;
+  height: 24px;
+}
+
+#information-text p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 15px;
+}
+
+#information-text {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  float: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.side-menu #form {
+  position: fixed;
+  right: 0;
+  top: 8.8%;
+  z-index: 3;
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  position: local;
+}
+
+#mobile {
+  display: none;
+}
+
+.bg img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+#carrosel {
+  width: 62px;
+  height: 14px;
+  position: absolute;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  left: 50%;
+  -webkit-transform: translateY(170px);
+          transform: translateY(170px);
+}
+
+#ball {
+  width: 14px;
+  height: 14px;
+  background-color: #FFFFFF;
+  bottom: 0;
+  border-radius: 100%;
+}
+
+#ball:first-child {
+  background-color: #1C69D4;
+}
+
+#form {
+  height: 478px;
+  width: 255px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #FFFFFF;
+  position: absolute;
+  right: 540px;
+  top: 250px;
+  padding: 15px 0px;
+}
+
+#title img {
+  width: 23px;
+  height: 23px;
+}
+
+#title {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: #000000;
+  font-family: BMWTypeNext-Light, sans-serif;
+  font-size: 1.1rem;
+  padding-top: 1rem;
+}
+
+form {
+  width: 100%;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.form-group:nth-last-child(n + 2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-bottom: 2px;
+}
+
+.form-group:nth-last-child(n + 2) label {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font: normal 14px BMWTypeNext-Light;
+  -webkit-transition: 0.4s ease-out;
+  transition: 0.4s ease-out;
+}
+
+.form-group:nth-last-child(n + 2) input {
+  display: block;
+  width: 215px;
+  padding: 10px 0px;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 3px solid #666666;
+  font: normal 14px BMWTypeNext-Light;
+  -webkit-transition: 0.4s ease-out;
+  transition: 0.4s ease-out;
+}
+
+.form-group:nth-last-child(n + 2):focus-within label,
+.form-group:nth-last-child(n + 2).has-content label {
+  top: 0px;
+  -webkit-transform: translateY(-80%);
+          transform: translateY(-80%);
+  color: #666666;
+}
+
+.form-group:nth-last-child(n + 2):focus-within input,
+.form-group:nth-last-child(n + 2).has-content input {
+  border-bottom-color: #1C69D4;
+}
+
+.text-area:focus-within label {
+  top: 0px;
+  -webkit-transform: translateY(95%);
+          transform: translateY(95%);
+  color: #666666;
+}
+
+.checkbox {
+  width: 100%;
+  height: 1rem;
+  margin: 3px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: BMWTypeNext-Light, sans-serif;
+}
+
+.checkbox input {
+  margin-right: 10px;
+  border: 1px solid #666666;
+}
+
+.checkbox input:hover {
+  cursor: pointer;
+}
+
+.checkbox:hover {
+  color: #1C69D4;
+}
+
+.checkbox input:checked {
+  color: #666666;
+}
+
+.send {
+  width: 215px;
+  height: 45px;
+  background-color: #1C69D4;
+  font-family: BMWTypeNext-Bold, sans-serif;
+  color: #FFFFFF;
+  border: none;
+  letter-spacing: 0;
+}
+
+.send:hover {
+  background-color: #0351BE;
+  cursor: pointer;
+}
+
+.choose-car {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 7rem;
+  margin: 50px 0px;
+}
+
+.choose-car h2 {
+  font-family: BMWTypeNext-Light;
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 100px;
+}
+
+.car {
+  height: 363px;
+  width: 315px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px 20px;
+}
+
+.car-content {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.car-models01, .car-models02 {
+  width: 80%;
+  height: 383px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 100px 0px;
+}
+
+.car-models01, .car-models02 p {
+  font-family: BMWTypeNext-Light;
+  text-align: left !important;
+}
+
+.car-title {
+  font-size: 1.5rem;
+  color: #262626;
+  width: 100%;
+}
+
+.arrow img {
+  width: 24px;
+  height: 24px;
+}
+
+.arrow img:hover {
+  cursor: pointer;
+}
+
+.car button {
+  width: 275px;
+  height: 45px;
+  background-color: #1C69D4;
+  color: #FFFFFF;
+  font-family: BMWTypeNext-Bold;
+  border: none;
+}
+
+.car button:hover {
+  background-color: #0351BE;
+  cursor: pointer;
+}
+
+.car > div:first-child:hover {
+  opacity: 0.5;
+}
+
+#footer img {
+  width: 24px;
+  height: 24px;
+}
+
+#footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#footer p {
+  font-weight: 300;
+  color: #666666;
+}
+
+#carrosel-cars {
+  width: 62px;
+  height: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  /* transform: translateY(170px); */
+}
+
+#carrosel-cars #ball:not(:first-child) {
+  width: 14px;
+  height: 14px;
+  background-color: #666666;
+  bottom: 0;
+  border-radius: 100%;
+}
+
+.sell {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 130px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.footer {
+  width: 100%;
+  height: 251px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #E6E6E6;
+}
+
+#text {
+  width: 75%;
+  height: 41px;
+  font-family: BMWTypeNext-Light, sans-serif;
+  font-size: 1rem;
+}
+
+#line {
+  width: 75%;
+  height: 2px;
+  background-color: #BBBBBB;
+}
+
+footer {
+  width: 75%;
+  height: 33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#made-by {
+  width: 200px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#made-by img {
+  width: 124px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+footer img {
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (max-width: 1100px) {
+  .virtual-tour {
+    display: none;
+  }
+  .whatsapp {
+    display: none;
+  }
+  .header {
+    width: 100%;
+    height: 90px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    position: fixed;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index: 2;
+  }
+  .header .left-content {
+    -webkit-transform: translateX(-25%);
+            transform: translateX(-25%);
+  }
+  .header img {
+    width: 64px;
+    height: 64px;
+  }
+  #carrosel {
+    display: none;
+  }
+  .choose-car {
+    width: 100%;
+    height: 1550px;
+    margin: 0;
+  }
+  .choose-car h2 {
+    margin: 0;
+  }
+  #cars {
+    display: none;
+  }
+  .fixed-bar {
+    display: none !important;
+  }
+  #opening #form {
+    display: none;
+  }
+  .sell #carrosel-cars {
+    display: none;
+  }
+  .car-models01, .car-models02 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+    padding: 0;
+  }
+  .car-models01, .car-models02 .arrow {
+    display: none;
+  }
+  .footer img:first-child {
+    display: none;
+  }
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .fixed-bottom-bar {
+    display: none !important;
+  }
+  .bg {
+    background: url("../../assets/banners/mobile-banner.png") no-repeat center center #000;
+    width: 100%;
+    height: 100vh;
+    position: local;
+  }
+  .bg img {
+    display: none;
+  }
+  #mobile {
+    display: block;
+    top: 90px;
+    width: 100%;
+    height: 75px;
+    background-color: #1C69D4;
+    position: fixed;
+    font-family: BMWTypeNext-Bold,sans-serif;
+    color: white;
+    border: none;
+    z-index: 2;
+  }
+  #bar-content #whatsapp-ballon {
+    display: block !important;
+  }
+}
+
+@media (min-width: 800px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+@font-face {
+  font-family: BMWTypeNext-Bold;
+  src: url("../assets/fonts/BMWTypeNext-Bold.20210426144302.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: BMWTypeNext-Light;
+  src: url("../assets/fonts/BMWTypeNext-Light.20210426144302.ttf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.page {
+  width: 100%;
+  height: 100vh;
+}
+/*# sourceMappingURL=styles.css.map */

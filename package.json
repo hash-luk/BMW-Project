@@ -1,0 +1,27 @@
+{
+  "name": "bmw",
+  "version": "1.0.0",
+  "description": "A bmw project for a test",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hash-luk/BMW-Project.git"
+  },
+  "keywords": [
+    "SASS",
+    "BMW",
+    "Frontend"
+  ],
+  "author": "Lucas P.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hash-luk/BMW-Project/issues"
+  },
+  "homepage": "https://github.com/hash-luk/BMW-Project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

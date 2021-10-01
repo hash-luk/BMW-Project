@@ -1,0 +1,114 @@
+.fixed-bar {
+    width: 100%;
+    height: 85px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $white;
+    padding-top: 5px;
+    padding-left: 20px;
+    z-index: 2;
+}
+
+#gray {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($gray, $alpha: 0.6)
+}
+
+.fixed-bar img {
+    width: 64px;
+    height: 64px;
+}
+
+.information {
+    height: 100%;
+}
+
+.information button {
+    width: 200px;
+    height: 100%;
+    background-color: $default-blue;
+    color: $white;
+    font-family: BMWTypeNext-Bold,sans-serif;
+    border: none;
+}
+
+.information button:hover {
+    background-color: $hover-dark-blue;  
+    cursor: pointer; 
+}
+
+
+.fixed-bottom-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 85px;
+    background-color: $white;
+    z-index: 1;
+}
+
+#bar-content {
+margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: BMWTypeNext-Bold,sans-serif;
+}
+
+#whatsapp-ballon {
+    background-color: $green;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    width: 94px;
+    height: 94px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#whatsapp-ballon:hover {
+    background-color: $hover-green;
+    cursor: pointer;
+}
+
+
+#whatsapp-ballon img {
+    width: 80%;
+    height: 80%;
+}
+
+#information-text img {
+    width: 24px;
+    height: 24px;
+}
+
+#information-text p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+#information-text {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    float: row;
+    justify-content: space-evenly;
+}
+
+.side-menu #form {
+    position: fixed;
+    right: 0;
+    top: 8.8%;
+    z-index: 3;
+}

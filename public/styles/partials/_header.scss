@@ -1,0 +1,94 @@
+.header {
+  width: 100%;
+  height: 152px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-family: BMWTypeNext-Bold, sans-serif;
+  margin: 0px 0px 20px 0px;
+}
+
+.left-content {
+  height: 100%;
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact img {
+  width: 19px;
+  height: 19px;
+}
+
+#contact {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.telefone {
+  width: 160px;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: $black;
+  color: white;
+}
+
+.telefone:hover {
+  background-color: $hover-ddark-gray;
+  cursor: pointer;
+}
+
+.virtual-tour {
+  width: 160px;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: $black;
+  color: white;
+}
+
+.virtual-tour:hover {
+  background-color: $hover-ddark-gray;
+  cursor: pointer;
+}
+
+.whatsapp {
+  width: 160px;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: $green;
+  color: white;
+}
+
+.whatsapp:hover {
+  background-color: $hover-green;
+  cursor: pointer;
+}
+
+#cars {
+  width: 824px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  color: $gray;
+  transform: translateX(-20px);
+}
+
+#cars div:hover {
+  color: #8a8a8a;
+  cursor: pointer;
+}

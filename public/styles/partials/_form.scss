@@ -1,0 +1,126 @@
+#form {
+  height: 478px;
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: $white;
+  position: absolute;
+  right: 540px;
+  top: 250px;
+  padding: 15px 0px;
+}
+
+#title img {
+  width: 23px;
+  height: 23px;
+}
+
+#title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  color: $black;
+  font-family: BMWTypeNext-Light, sans-serif;
+  font-size: 1.1rem;
+  padding-top: 1rem;
+}
+
+form {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.form-group:nth-last-child(n + 2) {
+  display: flex;
+  position: relative;
+  margin-bottom: 2px;
+}
+
+.form-group:nth-last-child(n + 2) label {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translateY(-50%);
+  font: normal 14px BMWTypeNext-Light;
+  transition: 0.4s ease-out;
+}
+
+.form-group:nth-last-child(n + 2) input {
+  display: block;
+  width: 215px;
+  padding: 10px 0px;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 3px solid $gray;
+  font: normal 14px BMWTypeNext-Light;
+  transition: 0.4s ease-out;
+}
+
+.form-group:nth-last-child(n + 2):focus-within label,
+.form-group:nth-last-child(n + 2).has-content label {
+  top: 0px;
+  transform: translateY(-80%);
+  color: $gray;
+}
+
+.form-group:nth-last-child(n + 2):focus-within input,
+.form-group:nth-last-child(n + 2).has-content input {
+  border-bottom-color: $default-blue;
+}
+
+.text-area:focus-within label {
+  top: 0px;
+  transform: translateY(95%);
+  color: $gray;
+}
+
+.checkbox {
+  width: 100%;
+  height: 1rem;
+  margin: 3px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: BMWTypeNext-Light, sans-serif;
+}
+
+.checkbox input {
+  margin-right: 10px;
+  border: 1px solid $gray;
+}
+
+.checkbox input:hover {
+  cursor: pointer;
+}
+
+.checkbox:hover {
+  color: $default-blue;
+}
+
+.checkbox input:checked {
+  color: $gray;
+}
+
+.send {
+  width: 215px;
+  height: 45px;
+  background-color: $default-blue;
+  font-family: BMWTypeNext-Bold, sans-serif;
+  color: $white;
+  border: none;
+  letter-spacing: 0;
+}
+
+.send:hover {
+  background-color: $hover-dark-blue;
+  cursor: pointer;
+}
