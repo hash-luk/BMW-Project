@@ -47,7 +47,7 @@
 
 ## Licença
 
-Esse projeto está sob a licença ISC. Veja o arquivo [LICENSE](LICENSE),para saber mais.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE),para saber mais.
 
 <br />
 <br />
